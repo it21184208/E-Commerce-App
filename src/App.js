@@ -1,11 +1,11 @@
 
 import React from 'react';
-import Header from './components/header/Header';
+import AppRouter from './Routers/AppRouter';
 
 function App() {
   return (
-    <div className="w-full h-screen">
-      <Header />
+    <div >
+      <AppRouter/>
     </div>
   );
 }
